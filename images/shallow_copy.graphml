@@ -609,23 +609,6 @@
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n33">
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="29.17578125" x="448.4259374999997" y="547.0"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="24" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="19.17578125" x="5.0" y="-1.1328125">4<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
     <edge id="e0" source="n16" target="n26">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
@@ -737,21 +720,7 @@
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="e8" source="n31" target="n33">
-      <data key="d10">
-        <y:GenericEdge configuration="com.yworks.bpmn.Connection">
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="258.1400781249997" y="562.0"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="delta"/>
-          <y:StyleProperties>
-            <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="CONNECTION_TYPE_SEQUENCE_FLOW"/>
-          </y:StyleProperties>
-        </y:GenericEdge>
-      </data>
-    </edge>
-    <edge id="e9" source="n0" target="n10">
+    <edge id="e8" source="n0" target="n10">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="-18.038515624999718" ty="-14.0"/>
@@ -763,7 +732,7 @@
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="e10" source="n5" target="n3">
+    <edge id="e9" source="n5" target="n3">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -778,7 +747,7 @@
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="e11" source="n6" target="n4">
+    <edge id="e10" source="n6" target="n4">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="5.96875" tx="0.0" ty="0.0">
@@ -793,7 +762,7 @@
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="e12" source="n8" target="n2">
+    <edge id="e11" source="n8" target="n2">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -808,7 +777,7 @@
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="e13" source="n9" target="n1">
+    <edge id="e12" source="n9" target="n1">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="-15.0" tx="0.0" ty="0.0">
@@ -822,7 +791,7 @@
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="e14" source="n10" target="n11">
+    <edge id="e13" source="n10" target="n11">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -836,7 +805,7 @@
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="e15" source="n12" target="n15">
+    <edge id="e14" source="n12" target="n15">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="-18.038515624999718" ty="-14.0"/>
@@ -848,7 +817,7 @@
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="e16" source="n14" target="n1">
+    <edge id="e15" source="n14" target="n1">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="-15.0" tx="-52.755859375" ty="0.0">
@@ -862,11 +831,26 @@
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="e17" source="n15" target="n32">
+    <edge id="e16" source="n15" target="n32">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="1163.5725781249994" y="546.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="delta"/>
+          <y:StyleProperties>
+            <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="CONNECTION_TYPE_SEQUENCE_FLOW"/>
+          </y:StyleProperties>
+        </y:GenericEdge>
+      </data>
+    </edge>
+    <edge id="e17" source="n31" target="n27">
+      <data key="d10">
+        <y:GenericEdge configuration="com.yworks.bpmn.Connection">
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="463.92449664429523" y="492.85318791946304"/>
+            <y:Point x="462.51677852348985" y="322.51929530201346"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="delta"/>
