@@ -1,8 +1,0 @@
-(i__main__
-Simple
-p0
-(dp1
-S'count'
-p2
-I10
-sb.
