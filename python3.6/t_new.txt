@@ -1,0 +1,4 @@
+Its power: Python developers typically report 
+they are able to develop applications in a half
+to a tenth the amount of time it takes them to do
+the same work in such languages as C.
